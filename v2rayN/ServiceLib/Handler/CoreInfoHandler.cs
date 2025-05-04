@@ -158,7 +158,7 @@ public sealed class CoreInfoHandler
                     Url = GetCoreUrl(ECoreType.sing_box),
 
                     ReleaseApiUrl = urlSingbox.Replace(Global.GithubUrl, Global.GithubApiUrl),
-                    DownloadUrlWin64 = urlSingbox + "/download/{0}/sing-box-1.12.0-windows-amd64-legacy.zip",
+                    DownloadUrlWin64 = urlSingbox + "/download/{0}/sing-box-{1}-windows-amd64-legacy.zip",
                     DownloadUrlWinArm64 = urlSingbox + "/download/{0}/sing-box-{1}-windows-arm64.zip",
                     DownloadUrlLinux64 = urlSingbox + "/download/{0}/sing-box-{1}-linux-amd64.tar.gz",
                     DownloadUrlLinuxArm64 = urlSingbox + "/download/{0}/sing-box-{1}-linux-arm64.tar.gz",

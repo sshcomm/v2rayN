@@ -1416,4 +1416,7 @@
   <data name="menuExportConfig" xml:space="preserve">
     <value>Export server</value>
   </data>
+  <data name="TbSettingsAutoUpdateCoreInterval" xml:space="preserve">
+    <value>Интервал автоматического обновления Core и GUI файлов (часы)</value>
+  </data>
 </root>

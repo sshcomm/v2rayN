@@ -154,7 +154,7 @@ public sealed class CoreInfoHandler
                 {
                     CoreType = ECoreType.sing_box,
                     CoreExes = ["sing-box-client", "sing-box"],
-                    Arguments = "run -c {0} --disable-color",
+                    Arguments = "run -c sing_box.json --disable-color",
                     Url = GetCoreUrl(ECoreType.sing_box),
 
                     ReleaseApiUrl = urlSingbox.Replace(Global.GithubUrl, Global.GithubApiUrl),

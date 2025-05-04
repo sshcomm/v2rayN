@@ -32,7 +32,7 @@ public class SubItem
 
     public string? NextProfile { get; set; }
 
-    public int? PreSocksPort { get; set; }
+    public int? PreSocksPort { get; set; } = 10808;
 
     public string? Memo { get; set; }
 }

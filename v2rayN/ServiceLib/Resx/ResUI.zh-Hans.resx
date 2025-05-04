@@ -681,6 +681,9 @@
   <data name="TbSettingsAutoUpdateInterval" xml:space="preserve">
     <value>自动更新 Geo 文件的间隔 (小时)</value>
   </data>
+  <data name="TbSettingsAutoUpdateCoreInterval" xml:space="preserve">
+    <value>Core和GUI文件自动更新间隔(小时)</value>
+  </data>
   <data name="TbSettingsCore" xml:space="preserve">
     <value>Core: 基础设置</value>
   </data>

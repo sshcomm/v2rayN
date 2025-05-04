@@ -655,6 +655,20 @@
                             VerticalAlignment="Center"
                             Text="{x:Static resx:ResUI.TbSettingsChinaUserTip}"
                             TextWrapping="Wrap" />
+
+                        <TextBlock
+                            Grid.Row="25"
+                            Grid.Column="0"
+                            VerticalAlignment="Center"
+                            Classes="Margin8"
+                            Text="{x:Static resx:ResUI.TbSettingsAutoUpdateCoreInterval}" />
+                        <TextBox
+                            x:Name="txtautoUpdateCoreInterval"
+                            Grid.Row="25"
+                            Grid.Column="1"
+                            Width="200"
+                            HorizontalAlignment="Left"
+                            Classes="Margin8" />    
                     </Grid>
                 </ScrollViewer>
             </TabItem>

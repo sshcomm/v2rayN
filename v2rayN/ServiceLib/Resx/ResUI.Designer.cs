@@ -2867,6 +2867,15 @@ namespace ServiceLib.Resx {
                 return ResourceManager.GetString("TbSettingsAutoUpdateInterval", resourceCulture);
             }
         }
+
+                /// <summary>
+        ///   查找类似 Automatic update interval for Core and GUI files (hours) 的本地化字符串。
+        /// </summary>
+        public static string TbSettingsAutoUpdateCoreInterval {
+            get {
+                return ResourceManager.GetString("TbSettingsAutoUpdateCoreInterval", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   查找类似 Users in China region can ignore this item 的本地化字符串。
